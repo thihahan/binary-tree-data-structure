@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/binary_tree_in_C___0.dir/perfect-binary-tree.cpp.o"
+  "CMakeFiles/binary_tree_in_C___0.dir/full-binary-tree.cpp.o"
   "binary_tree_in_C___0"
   "binary_tree_in_C___0.pdb"
 )

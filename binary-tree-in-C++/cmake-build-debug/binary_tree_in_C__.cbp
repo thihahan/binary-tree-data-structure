@@ -27,11 +27,45 @@
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="binary_tree_in_C__">
+				<Option output="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/binary_tree_in_C__" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_tree_in_C__"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binary_tree_in_C__/fast">
+				<Option output="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/binary_tree_in_C__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_tree_in_C__/fast"/>
 					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,8 +115,8 @@
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="binary_tree_in_C__">
-				<Option output="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/binary_tree_in_C__" prefix_auto="0" extension_auto="0"/>
+			<Target title="binary_tree_in_C___1">
+				<Option output="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/binary_tree_in_C___1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -97,14 +131,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_tree_in_C__"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_tree_in_C___1"/>
 					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="binary_tree_in_C__/fast">
-				<Option output="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/binary_tree_in_C__" prefix_auto="0" extension_auto="0"/>
+			<Target title="binary_tree_in_C___1/fast">
+				<Option output="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/binary_tree_in_C___1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -119,18 +153,31 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_tree_in_C__/fast"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 binary_tree_in_C___1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/thiha/programming/data\ structures\ and\ algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/complete-binary-tree.cpp">
+			<Option target="binary_tree_in_C___1"/>
+		</Unit>
+		<Unit filename="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/full-binary-tree.cpp">
+			<Option target="binary_tree_in_C___0"/>
+		</Unit>
 		<Unit filename="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/main.cpp">
 			<Option target="binary_tree_in_C__"/>
-		</Unit>
-		<Unit filename="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/perfect-binary-tree.cpp">
-			<Option target="binary_tree_in_C___0"/>
 		</Unit>
 		<Unit filename="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
