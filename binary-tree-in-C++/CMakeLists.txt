@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(binary_tree_in_C___0 full-binary-tree.cpp)
 add_executable(binary_tree_in_C___1 perfect-binary-tree.cpp)
+add_executable(binary_tree_in_C___C complete-binary-tree.cpp)
+
 

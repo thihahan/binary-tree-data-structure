@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = "/home/thiha/programming/data structures and algorrithms(saya
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/thiha/Downloads/CLion-2021.2.2/clion-2021.2.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/thiha/Downloads/CLion-2021.2.2/clion-2021.2.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named binary_tree_in_C___0
+
+# Build rule for target.
+binary_tree_in_C___0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binary_tree_in_C___0
+.PHONY : binary_tree_in_C___0
+
+# fast build rule for target.
+binary_tree_in_C___0/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/build
+.PHONY : binary_tree_in_C___0/fast
+
+#=============================================================================
 # Target rules for targets named binary_tree_in_C___1
 
 # Build rule for target.
@@ -130,17 +143,41 @@ binary_tree_in_C___1/fast:
 .PHONY : binary_tree_in_C___1/fast
 
 #=============================================================================
-# Target rules for targets named binary_tree_in_C___0
+# Target rules for targets named binary_tree_in_C___C
 
 # Build rule for target.
-binary_tree_in_C___0: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binary_tree_in_C___0
-.PHONY : binary_tree_in_C___0
+binary_tree_in_C___C: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binary_tree_in_C___C
+.PHONY : binary_tree_in_C___C
 
 # fast build rule for target.
-binary_tree_in_C___0/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/build
-.PHONY : binary_tree_in_C___0/fast
+binary_tree_in_C___C/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/build
+.PHONY : binary_tree_in_C___C/fast
+
+complete-binary-tree.o: complete-binary-tree.cpp.o
+.PHONY : complete-binary-tree.o
+
+# target to build an object file
+complete-binary-tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/complete-binary-tree.cpp.o
+.PHONY : complete-binary-tree.cpp.o
+
+complete-binary-tree.i: complete-binary-tree.cpp.i
+.PHONY : complete-binary-tree.i
+
+# target to preprocess a source file
+complete-binary-tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/complete-binary-tree.cpp.i
+.PHONY : complete-binary-tree.cpp.i
+
+complete-binary-tree.s: complete-binary-tree.cpp.s
+.PHONY : complete-binary-tree.s
+
+# target to generate assembly for a file
+complete-binary-tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/complete-binary-tree.cpp.s
+.PHONY : complete-binary-tree.cpp.s
 
 full-binary-tree.o: full-binary-tree.cpp.o
 .PHONY : full-binary-tree.o
@@ -200,6 +237,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... binary_tree_in_C___0"
 	@echo "... binary_tree_in_C___1"
+	@echo "... binary_tree_in_C___C"
+	@echo "... complete-binary-tree.o"
+	@echo "... complete-binary-tree.i"
+	@echo "... complete-binary-tree.s"
 	@echo "... full-binary-tree.o"
 	@echo "... full-binary-tree.i"
 	@echo "... full-binary-tree.s"

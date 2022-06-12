@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/complete-binary-tree.cpp
+iostream
+-
+

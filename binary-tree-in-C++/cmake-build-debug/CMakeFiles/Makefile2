@@ -63,8 +63,9 @@ CMAKE_BINARY_DIR = "/home/thiha/programming/data structures and algorrithms(saya
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/binary_tree_in_C___1.dir/all
 all: CMakeFiles/binary_tree_in_C___0.dir/all
+all: CMakeFiles/binary_tree_in_C___1.dir/all
+all: CMakeFiles/binary_tree_in_C___C.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,9 +73,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/binary_tree_in_C___1.dir/clean
 clean: CMakeFiles/binary_tree_in_C___0.dir/clean
+clean: CMakeFiles/binary_tree_in_C___1.dir/clean
+clean: CMakeFiles/binary_tree_in_C___C.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/binary_tree_in_C___0.dir
+
+# All Build rule for target.
+CMakeFiles/binary_tree_in_C___0.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target binary_tree_in_C___0"
+.PHONY : CMakeFiles/binary_tree_in_C___0.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/binary_tree_in_C___0.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/binary_tree_in_C___0.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/binary_tree_in_C___0.dir/rule
+
+# Convenience name for target.
+binary_tree_in_C___0: CMakeFiles/binary_tree_in_C___0.dir/rule
+.PHONY : binary_tree_in_C___0
+
+# clean rule for target.
+CMakeFiles/binary_tree_in_C___0.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/clean
+.PHONY : CMakeFiles/binary_tree_in_C___0.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/binary_tree_in_C___1.dir
@@ -103,30 +131,30 @@ CMakeFiles/binary_tree_in_C___1.dir/clean:
 .PHONY : CMakeFiles/binary_tree_in_C___1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/binary_tree_in_C___0.dir
+# Target rules for target CMakeFiles/binary_tree_in_C___C.dir
 
 # All Build rule for target.
-CMakeFiles/binary_tree_in_C___0.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target binary_tree_in_C___0"
-.PHONY : CMakeFiles/binary_tree_in_C___0.dir/all
+CMakeFiles/binary_tree_in_C___C.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target binary_tree_in_C___C"
+.PHONY : CMakeFiles/binary_tree_in_C___C.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/binary_tree_in_C___0.dir/rule: cmake_check_build_system
+CMakeFiles/binary_tree_in_C___C.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/binary_tree_in_C___0.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/binary_tree_in_C___C.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/thiha/programming/data structures and algorrithms(sayar_win_htut)/projects/binary-tree-data-structure/binary-tree-in-C++/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/binary_tree_in_C___0.dir/rule
+.PHONY : CMakeFiles/binary_tree_in_C___C.dir/rule
 
 # Convenience name for target.
-binary_tree_in_C___0: CMakeFiles/binary_tree_in_C___0.dir/rule
-.PHONY : binary_tree_in_C___0
+binary_tree_in_C___C: CMakeFiles/binary_tree_in_C___C.dir/rule
+.PHONY : binary_tree_in_C___C
 
 # clean rule for target.
-CMakeFiles/binary_tree_in_C___0.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___0.dir/build.make CMakeFiles/binary_tree_in_C___0.dir/clean
-.PHONY : CMakeFiles/binary_tree_in_C___0.dir/clean
+CMakeFiles/binary_tree_in_C___C.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/clean
+.PHONY : CMakeFiles/binary_tree_in_C___C.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
