@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// create Node
 class Node{
 public:
     int data;
@@ -10,17 +11,27 @@ public:
         this->left = this->right = NULL;
     }
 };
+// search depth
+int depth(Node* root){
+    Node* temp = root;
+    int i=0;
+    while(temp != NULL){
+        temp = temp->left;
+        i++;
+    }
+    return i;
+}
 
-// test is full binary tree
-bool isFbt(Node* root){
+//test perfect-binary-tree
+bool isPbt(Node* root, int depth, int level){
     if(root == NULL){
         return true;
     }
-    if(root->left && root->right){
-        return isFbt(root->left) && isFbt(root->right);
-    }
     if(root->left == NULL && root->right == NULL){
-        return true;
+        return depth == level+1;
+    }
+    if(root->left && root->right){
+        return isPbt(root->left, depth, 1+level) && isPbt(root->right, depth, 1+level);
     }
     return false;
 }
@@ -40,10 +51,12 @@ int main(){
     root->right->left->data = 6;
     root->right->right = new Node();
     root->right->right->data = 7;
-    if(isFbt(root)){
-        cout << "This is full binary tree" << endl;
+
+    bool is_perfect_binary_tree = isPbt(root, depth(root), 0);
+    if(is_perfect_binary_tree){
+        cout << "this is perfect binary tree" << endl;
     }else{
-        cout << "This is not full binary tree" << endl;
+        cout << "this is not perfect binary tree" << endl;
     }
-    return 0;
+    return 1;
 }
