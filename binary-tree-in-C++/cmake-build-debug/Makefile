@@ -130,6 +130,19 @@ binary_tree_in_C___0/fast:
 .PHONY : binary_tree_in_C___0/fast
 
 #=============================================================================
+# Target rules for targets named binary_tree_in_C___2
+
+# Build rule for target.
+binary_tree_in_C___2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binary_tree_in_C___2
+.PHONY : binary_tree_in_C___2
+
+# fast build rule for target.
+binary_tree_in_C___2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___2.dir/build.make CMakeFiles/binary_tree_in_C___2.dir/build
+.PHONY : binary_tree_in_C___2/fast
+
+#=============================================================================
 # Target rules for targets named binary_tree_in_C___1
 
 # Build rule for target.
@@ -143,24 +156,48 @@ binary_tree_in_C___1/fast:
 .PHONY : binary_tree_in_C___1/fast
 
 #=============================================================================
-# Target rules for targets named binary_tree_in_C___C
+# Target rules for targets named balanced
 
 # Build rule for target.
-binary_tree_in_C___C: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binary_tree_in_C___C
-.PHONY : binary_tree_in_C___C
+balanced: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 balanced
+.PHONY : balanced
 
 # fast build rule for target.
-binary_tree_in_C___C/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/build
-.PHONY : binary_tree_in_C___C/fast
+balanced/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/balanced.dir/build.make CMakeFiles/balanced.dir/build
+.PHONY : balanced/fast
+
+balanced-binary-tree.o: balanced-binary-tree.cpp.o
+.PHONY : balanced-binary-tree.o
+
+# target to build an object file
+balanced-binary-tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/balanced.dir/build.make CMakeFiles/balanced.dir/balanced-binary-tree.cpp.o
+.PHONY : balanced-binary-tree.cpp.o
+
+balanced-binary-tree.i: balanced-binary-tree.cpp.i
+.PHONY : balanced-binary-tree.i
+
+# target to preprocess a source file
+balanced-binary-tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/balanced.dir/build.make CMakeFiles/balanced.dir/balanced-binary-tree.cpp.i
+.PHONY : balanced-binary-tree.cpp.i
+
+balanced-binary-tree.s: balanced-binary-tree.cpp.s
+.PHONY : balanced-binary-tree.s
+
+# target to generate assembly for a file
+balanced-binary-tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/balanced.dir/build.make CMakeFiles/balanced.dir/balanced-binary-tree.cpp.s
+.PHONY : balanced-binary-tree.cpp.s
 
 complete-binary-tree.o: complete-binary-tree.cpp.o
 .PHONY : complete-binary-tree.o
 
 # target to build an object file
 complete-binary-tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/complete-binary-tree.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___2.dir/build.make CMakeFiles/binary_tree_in_C___2.dir/complete-binary-tree.cpp.o
 .PHONY : complete-binary-tree.cpp.o
 
 complete-binary-tree.i: complete-binary-tree.cpp.i
@@ -168,7 +205,7 @@ complete-binary-tree.i: complete-binary-tree.cpp.i
 
 # target to preprocess a source file
 complete-binary-tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/complete-binary-tree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___2.dir/build.make CMakeFiles/binary_tree_in_C___2.dir/complete-binary-tree.cpp.i
 .PHONY : complete-binary-tree.cpp.i
 
 complete-binary-tree.s: complete-binary-tree.cpp.s
@@ -176,7 +213,7 @@ complete-binary-tree.s: complete-binary-tree.cpp.s
 
 # target to generate assembly for a file
 complete-binary-tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___C.dir/build.make CMakeFiles/binary_tree_in_C___C.dir/complete-binary-tree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_tree_in_C___2.dir/build.make CMakeFiles/binary_tree_in_C___2.dir/complete-binary-tree.cpp.s
 .PHONY : complete-binary-tree.cpp.s
 
 full-binary-tree.o: full-binary-tree.cpp.o
@@ -235,9 +272,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... balanced"
 	@echo "... binary_tree_in_C___0"
 	@echo "... binary_tree_in_C___1"
-	@echo "... binary_tree_in_C___C"
+	@echo "... binary_tree_in_C___2"
+	@echo "... balanced-binary-tree.o"
+	@echo "... balanced-binary-tree.i"
+	@echo "... balanced-binary-tree.s"
 	@echo "... complete-binary-tree.o"
 	@echo "... complete-binary-tree.i"
 	@echo "... complete-binary-tree.s"

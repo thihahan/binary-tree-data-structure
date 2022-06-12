@@ -17,7 +17,7 @@ def isCbt(root, index, number_of_nodes):
         return True
     if index >= number_of_nodes:
         return False
-    return isCbt(root.left, 2*index +1, number_of_nodes) and isCbt(root.right, 2*index+2, number_of_nodes)
+    return isCbt(root.left, 2*index + 1, number_of_nodes) and isCbt(root.right, 2*index+2, number_of_nodes)
 
 
 if __name__ == '__main__':

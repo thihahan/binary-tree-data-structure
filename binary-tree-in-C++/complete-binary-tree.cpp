@@ -7,7 +7,8 @@ public:
     int data;
     Node *left, *right;
 
-    Node(){
+    Node(int data){
+        this->data = data;
         this->left = this->right = NULL;
     }
 };
@@ -33,16 +34,12 @@ bool isCbt(Node* root, int number_of_nodes, int index){
 }
 
 int main(){
-    Node *root = new Node();
-    root->data = 1;
-    root->left = new Node();
-    root->left->data = 2;
-    root->right = new Node();
-    root->right->data = 3;
-    root->left->left = new Node();
-    root->left->left->data = 4;
-    root->left->left = new Node();
-    root->left->left->data = 5;
+    Node* root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+    root->left->left = new Node(4);
+    root->left->right = new Node(5);
+    root->right->left = new Node(6);
     if(isCbt(root, nodes(root), 0)){
         cout << "This is complete binary tree" << endl;
     }else{
